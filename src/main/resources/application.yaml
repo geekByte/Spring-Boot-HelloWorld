@@ -1,0 +1,20 @@
+
+# 自定义配置文件示例
+# 参考Person.java对该配置文件的使用
+
+# 行内写法
+#person: {name: 有朋, age: 22, sex: boy}
+
+# 对象写法
+person:
+  name: abc
+  age: 22
+  sex: boy
+  maps: {k1: ka, k2: kb}
+#  数组写法
+  interests:
+    - A
+    - B
+    - C
+#  interests: [A,B,C]
+######################################################
